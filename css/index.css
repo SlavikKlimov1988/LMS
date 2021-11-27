@@ -83,3 +83,29 @@ a {
 .footer-item {
   margin-right: 50px;
 }
+/*-------------html-----------*/
+.html-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.html-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 10px;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  margin-right: 10px;
+  background-color: rgba(255, 235, 205, 0.151);
+}
+.html-link {
+  margin-bottom: 15px;
+}
+.html-main {
+  background-image: url(/LMS/img/123.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
